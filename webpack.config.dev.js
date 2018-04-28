@@ -12,7 +12,7 @@ export default {
     path: path.resolve(__dirname, 'src'),
     publicPath: '/',
     filename: 'bundle.js'
-},
+  },
   plugins: [],
   module: {
     loaders: [
