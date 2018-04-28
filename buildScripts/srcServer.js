@@ -10,6 +10,8 @@ import config from "../webpack.config.dev";
 // var open = require('open');
 // ^^ Above worked with JS. Now that we have Babel we can use the import statement
 
+/* eslint-disable no-console */
+
 const port = 3000;
 const app = express();
 const compiler = webpack(config);
